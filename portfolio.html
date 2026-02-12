@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Portfolio — Kia</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🌸</text></svg>" />
+</head>
+<body>
+
+<!-- PAGE LOADER -->
+<div class="page-loader">
+ 
+  <div class="loader-dots">
+    <div class="loader-dot"></div>
+    <div class="loader-dot"></div>
+    <div class="loader-dot"></div>
+  </div>
+</div>
+
+<!-- NAVBAR -->
+<nav>
+  <span class="nav-logo">🌸 Kiatechie</span>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li>
+    <li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li>
+    <li><a href="portfolio.html" class="active">Portfolio</a></li>
+    <li><a href="contact.html">Contact</a></li>
+  </ul>
+  <button class="nav-toggle" aria-label="Menu">☰</button>
+</nav>
+
+<!-- MAIN CONTENT -->
+<div class="page-wrapper">
+  <section>
+
+    <!-- HEADING -->
+    <div class="section-title-wrapper reveal">
+      
+      <h2 class="section-title">The Project That I Created<span></span></h2>
+      <p class="section-subtitle"></p>
+      <div class="cute-divider"></div>
+    </div>
+
+
+
+    <!-- PORTFOLIO GRID -->
+    <div class="portfolio-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card reveal" data-cat="web" style="transition-delay:0s">
+        <div class="project-thumb" style="background: linear-gradient(135deg, #ffd6c5, #ffb8a0);">
+          <img src="assets/images/Screenshot 2026-02-11 182757.png" alt="BloomShop - E-Commerce Platform" class="project-thumbnail-img">
+          <div class="project-thumb-overlay">
+            <a href="https://revou-coding-camp.github.io/codingcamp-21-jul-25-zaskiajd/" title="Live Demo" target="_blank">🔗</a>
+            <a href="https://github.com/Revou-Coding-Camp/codingcamp-21-jul-25-zaskiajd.git" title="GitHub" target="_blank">🐱</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-cat">UI/UX Design</div>
+          <h3 class="project-title">To-do list - Revou final project</h3>
+          <p class="project-desc">A website created as a final assignment for the Revou bootcamp, featuring a simple to-do list for recording tasks.</p>
+          <div class="project-tags">
+            <span class="tag">React</span>
+            <span class="tag">Tailwind</span>
+            <span class="tag">Node.js</span>
+            <span class="tag">MySQL</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <div class="project-card reveal" data-cat="uiux" style="transition-delay:0.08s">
+        <div class="project-thumb" style="background: linear-gradient(135deg, #fde8ed, #f7b8c4);">
+          <img src="assets/images/Screenshot 2026-02-11 182806.png" alt="ZenLife - Meditation App UI" class="project-thumbnail-img">
+          <div class="project-thumb-overlay">
+              <a href=" https://zaskiajd.github.io/ProjectUASRekayasaPerangkatLunak/" title="Live Demo" target="_blank">🔗</a>
+              <a href="https://github.com/zaskiajd/ProjectUASRekayasaPerangkatLunak.git" title="GitHub" target="_blank">🐱</a>
+         </div>
+        </div>
+        <div class="project-body">
+          <div class="project-cat">Web App</div>
+          <h3 class="project-title">Web-based attendance system - Software Engineering final project</h3>
+          <p class="project-desc">A website created with my groupmates to facilitate the attendance system, which was previously manual, to become digital.</p>
+          <div class="project-tags">
+            <span class="tag">Figma</span>
+            <span class="tag">Prototyping</span>
+            <span class="tag">User Research</span>
+          </div>
+        </div>
+      </div>
+
+      <!-- Project 3 -->
+      <div class="project-card reveal" data-cat="mobile" style="transition-delay:0.16s">
+        <div class="project-thumb" style="background: linear-gradient(135deg, #c9f0e8, #a8e6d8);">
+          <img src="assets/images/Screenshot 2026-02-11 182843.png" alt="ReadNest - Book Tracker App" class="project-thumbnail-img">
+          <div class="project-thumb-overlay">
+             <a href=" https://zaskiajd.github.io/PageReplacement/" title="Live Demo" target="_blank">🔗</a>
+              <a href="https://github.com/zaskiajd/PageReplacement.git" title="GitHub" target="_blank">🐱</a>
+          </div>
+        </div>
+        <div class="project-body">
+          <div class="project-cat">Web App</div>
+          <h3 class="project-title">Page replacement algorithm simulation website - Operating Systems</h3>
+          <p class="project-desc">A website created for the final assignment of the Operating Systems course. This website makes it easier for users to calculate and learn how the page replacement algorithm works..</p>
+          <div class="project-tags">
+            <span class="tag">Flutter</span>
+            <span class="tag">Firebase</span>
+            <span class="tag">Dart</span>
+          </div>
+        </div>
+      </div>
+
+   
+
+     
+    </div>
+
+    <!-- CTA Section -->
+    <div style="text-align:center; margin-top:60px;" class="reveal">
+      <div style="font-size:2rem; margin-bottom:12px;"></div>
+      <h3 style="font-family:'Playfair Display',serif; font-size:1.6rem; color:var(--text-dark); margin-bottom:10px;">
+        Is there a project<span style="color:var(--peach-accent);"> you want to</span> work on together?
+      </h3>
+      <p style="color:var(--text-light); margin-bottom:24px; font-size:0.95rem;">
+        I am always open to collaborations and interesting projects. 
+      </p>
+      <a href="contact.html" class="btn btn-primary">💌 Contact Me Now</a>
+    </div>
+
+  </section>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="footer-inner">
+    <div class="footer-logo"></div>
+    <p class="footer-text">
+      made by <span></span>Kia<br>
+      &copy; 2026 — All rights reserved
+    </p>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
